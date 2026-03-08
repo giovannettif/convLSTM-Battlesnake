@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ML Weights
+*.pt
+*.pth
+*.ckpt
+!my_nn_snake/core/weights/best.pt
+
+# Logs
+*.log
+logs/
+
+# Secrets
+.env
+.secret
+.token
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Replays
+replay_*.json
